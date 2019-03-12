@@ -1,0 +1,151 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.row.content {
+  height: 1500px; }
+
+.sidenav {
+  background-color: #14280F;
+  height: 100%; }
+  .sidenav .nav2 {
+    padding-top: 150px; }
+  .sidenav .logo-box {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center; }
+    .sidenav .logo-box .text {
+      font-weight: 700;
+      font-size: 24px;
+      color: white;
+      font-family: 'Audiowide', sans-serif;
+      letter-spacing: 3px; }
+  .sidenav .nav {
+    margin-top: 80px; }
+    .sidenav .nav li {
+      padding: 10px;
+      border-radius: none; }
+      .sidenav .nav li .active {
+        color: #7ACC1F;
+        background-color: none; }
+      .sidenav .nav li a {
+        color: white !important;
+        font-size: 16px; }
+        .sidenav .nav li a:hover {
+          background: none;
+          color: #7ACC1F !important; }
+
+.header {
+  background: white;
+  padding: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.18);
+  height: 80px; }
+  .header .form-control {
+    background-color: #EEEEEE; }
+  .header .profile {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px; }
+
+.main-content {
+  padding: 40px; }
+  .main-content .page-title {
+    font-size: 20px; }
+  .main-content .page-header {
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    border-bottom: none; }
+    .main-content .page-header .big-title {
+      font-size: 32px; }
+    .main-content .page-header .sub-text {
+      color: #999999;
+      padding: 10px;
+      margin-left: 20px;
+      font-size: 18px; }
+    .main-content .page-header .pills {
+      margin-left: 20px;
+      padding: 10px; }
+      .main-content .page-header .pills .badge {
+        padding: 5px 20px 5px 20px;
+        border-radius: 50px; }
+      .main-content .page-header .pills .green {
+        background-color: #9DC98F;
+        color: #5C7553; }
+      .main-content .page-header .pills .orange {
+        background-color: #FAD392;
+        color: #A38C65; }
+  .main-content .sub-header {
+    display: flex;
+    margin-top: -20px; }
+    .main-content .sub-header span {
+      font-size: 16px;
+      color: #999999; }
+    .main-content .sub-header .actions {
+      margin-left: 30px; }
+
+.box-content {
+  margin-top: 60px; }
+
+.box {
+  border-radius: 6px;
+  border: 1px solid #EDEDED;
+  padding: 20px;
+  margin-bottom: 10px; }
+  .box .box-header {
+    font-size: 18px;
+    color: #4A4A4A; }
+
+.bx-content {
+  display: flex;
+  margin-top: 15px; }
+  .bx-content .bxdate,
+  .bx-content .bxtime {
+    padding: 10px; }
+    .bx-content .bxdate p,
+    .bx-content .bxtime p {
+      color: #4A4A4A;
+      font-size: 18px; }
+    .bx-content .bxdate span,
+    .bx-content .bxtime span {
+      color: #195007;
+      font-size: 26px;
+      margin-top: -15px; }
+
+.details {
+  margin-top: 15px; }
+  .details p {
+    font-size: 16px;
+    color: #4A4A4A; }
+
+.box-table {
+  display: flex;
+  justify-content: space-between;
+  align-content: center; }
+
+.table-content {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center; }
+
+.btn-success {
+  padding: 10px 15px;
+  border-radius: 6px; }
+
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px; }
+
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px; }
+
+  .row.content {
+    height: auto; } }
+
+/*# sourceMappingURL=styles.css.map */

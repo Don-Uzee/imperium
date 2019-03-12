@@ -1,0 +1,220 @@
+@import 'variables';
+
+
+
+
+.row.content {
+    height: 1500px
+}
+
+.sidenav {
+    background-color: $primary-green;
+    height: 100%;
+
+    .nav2 {
+        padding-top: 150px
+    }
+
+    .logo-box {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+
+        .text {
+            font-weight: 700;
+            font-size: 24px;
+            color: white;
+            font-family: 'Audiowide', sans-serif;
+            letter-spacing: 3px;
+        }
+    }
+
+    .nav {
+        margin-top: 80px;
+
+
+
+        li {
+            padding: 10px;
+            border-radius: none;
+            .active {
+                color: $accent-green;
+                background-color: none;
+            }
+            a {
+                color: white !important;
+                font-size: 16px;
+
+                &:hover {
+                    background: none;
+                    color: $accent-green !important;
+                }
+            }
+        }
+    }
+}
+
+
+.header {
+    background: white;
+    padding: 20px;
+    box-shadow: $shadow;
+    height: 80px;
+
+    .form-control {
+        background-color: #EEEEEE;
+    }
+
+    .profile {
+        display: flex;
+        justify-content: flex-end;
+        padding: 5px;
+    }
+}
+
+.main-content {
+    padding: 40px;
+    .page-title {
+        font-size: 20px;
+    }
+
+    .page-header {
+        display: flex;
+        align-content: center;
+        justify-content: flex-start;
+        border-bottom: none;
+
+        .big-title {
+            font-size: 32px;
+        }
+        .sub-text {
+            color: #999999;
+            padding: 10px;
+            margin-left: 20px;
+            font-size: 18px;
+        }
+
+        .pills {
+            margin-left: 20px;
+            padding: 10px;
+
+            .badge {
+                padding: 5px 20px 5px 20px;
+                border-radius: 50px;
+            }
+            .green {
+                background-color: $pill-green;
+                color: #5C7553;
+            }
+            .orange {
+                background-color: $pill-orange;
+                color: #A38C65;
+            }
+        }
+
+    }
+
+    .sub-header {
+        display: flex;
+        margin-top: -20px;
+//        
+//        i{
+//            color: $primary-green;
+//            font-size: 16px;
+//        }
+
+
+        span {
+            font-size: 16px;
+            color: #999999;
+
+        }
+
+        .actions {
+            margin-left: 30px;
+
+        }
+    }
+}
+
+.box-content {
+    margin-top: 60px;
+}
+
+.box {
+    border-radius: 6px;
+    border: 1px solid #EDEDED;
+    padding: 20px;
+    margin-bottom: 10px;
+
+    .box-header {
+        font-size: 18px;
+        color: #4A4A4A;
+    }
+}
+
+
+
+.bx-content {
+    display: flex;
+    margin-top: 15px;
+
+    .bxdate,
+    .bxtime {
+        padding: 10px;
+
+        p {
+            color: #4A4A4A;
+            font-size: 18px;
+        }
+
+        span {
+            color: #195007;
+            font-size: 26px;
+            margin-top: -15px;
+        }
+    }
+}
+
+.details {
+    margin-top: 15px;
+    p {
+        font-size: 16px;
+        color: #4A4A4A;
+    }
+}
+
+.box-table {
+    display: flex;
+    justify-content: space-between; // 
+    align-content: center;
+}
+
+.table-content {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+.btn-success{
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {
+        height: auto;
+    }
+}
